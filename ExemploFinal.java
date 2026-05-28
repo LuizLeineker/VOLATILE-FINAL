@@ -13,7 +13,7 @@ public class ExemploFinal {
         System.out.println("SENHA BANCO: " + codigoBanco);
 
         // Concatenação de Strings
-        // Se tenar concatena a variavel codigoBanco + "SENHA NOVA"
+        // Se tentar concatena a variavel codigoBanco + "SENHA NOVA"
         // Com oa variável é final, ela não pode receber valor
         // Quebrando o código, com o erro: Cannot assign a value to final variable
 
