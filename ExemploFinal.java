@@ -1,11 +1,10 @@
 public class ExemploFinal {
 
     public static void main(String[] args) {
-        //FINAL, O valor dessa variável não pode ser alterado depois da inicialização
+       //FINAL, O valor dessa variável não pode ser alterado
         final String imutavel = "VALOR FIXO";
 
-        //É utilizado final para garantir que esse valor não seja alterado
-        //Exemplo: Senha de banco ou uma url fixa da api
+        //Exemplo: Senha de banco ou uma url fixa de api
         final String codigoBanco = "BANCO-001";
         final String API_URL = "https://api.site.com";
 
@@ -13,9 +12,11 @@ public class ExemploFinal {
         System.out.println("SENHA BANCO: " + codigoBanco);
 
         // Concatenação de Strings
-        // Se tentar concatena a variavel codigoBanco + "SENHA NOVA"
-        // Com oa variável é final, ela não pode receber valor
-        // Quebrando o código, com o erro: Cannot assign a value to final variable
+        // Se tentar concatenar a variável: 
+        // codigoBanco = codigoBanco + "SENHA NOVA"
+        
+        // Vai gerar erro: 
+        // Cannot assign a value to final variable
 
     }
 
